@@ -1,7 +1,17 @@
-var bemvindo = alert("Seja bem vindo ao jogo de escolhas. As respostas são computadas com 'sim' ou 'não'. Para começar, escolha um personagem!")
+var bemvindo = prompt("Seja bem vindo ao jogo de escolhas. As respostas são computadas com 'SIM' ou 'NÃO'. Para começar digite 'JOGAR'")
+while (true) {
+    if (bemvindo.toLowerCase() == "jogar") {
+        break;
+
+    }
+    else {
+        alert("Comando inválido! Digite 'JOGAR' para começar.")
+        bemvindo = prompt("Seja bem vindo ao jogo de escolhas. As respostas são computadas com 'SIM' ou 'NÃO'. Para começar digite 'jogar'")
+    }
+}
 
 function clickVictim() {
-    var vinicius = prompt("Vinicius tem 32 anos e seu hobby favorito é viajar. Costuma ir para longe de sua pequena cidade do interior para visitar sua família na capital sempre que pode. Deseja escolher esse personagem? Digite 'sim' para selecionar, ou 'não' para voltar a seleção de personagens.")
+    var vinicius = prompt("Vinicius tem 32 anos e seu hobby favorito é viajar. Costuma ir para longe de sua pequena cidade do interior para visitar sua família na capital sempre que pode. Deseja escolher esse personagem? Digite 'SIM' para selecionar, ou 'NÃO' para voltar a seleção de personagens.")
     if (vinicius.toLowerCase() == "sim") {
         alert("Após um evento que aconteceu em seu trabalho, Vinicius conseguiu alguns dias de folga e finalmente vai conseguir viajar para visitar sua família! Arrumou suas coisas e partiu rumo a sua viagem!")
         var rodoviaria = prompt("Pegar o atalho para rodiaviaria?")
