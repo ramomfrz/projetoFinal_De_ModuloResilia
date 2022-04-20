@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    align-items: center;
+    background-size: cover;
+    background-image: url(https://media.nbcphiladelphia.com/2021/08/CrimeTape-3.jpg?quality=85&strip=all&fit=8532%2C4799&w=975&h=548&crop=1);
+    color: white;
+    text-align: justify;
+}
+
+h4 {
+    text-align: justify;
+    margin-right: 17%;
+    margin-left: 17%;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 127%;
+}
+
+p {
+    text-shadow: rgb(60, 59, 59) 0.1em 0.1em 0.2em;
+    margin-top: 7px;
+    font-size: 25px;
+}
+
+img {
+    border-radius: 150px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.characters {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 85px;
+}
+
+.character {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
