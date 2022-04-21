@@ -28,10 +28,10 @@ function clickVictim() {
             }
             else {
                 alert("Aguarda o horário do ônibus na plataforma.")
-                alert("Enquanto Vinicius aguardava o horário de seu ônibus, percebeu que havia uma loja de presentes na rodovi")
+                alert("Enquanto Vinicius aguardava o horário de seu ônibus, percebeu que havia uma loja de presentes na rodoviária.")
                 var presente = prompt("Deseja comprar um presente?")
                 if (presente.toLowerCase() == "sim") {
-                    alert("sofre um assalto e perde tudo. FIM DE JOGO!")
+                    alert("É vítima de um assalto e perde todos os seus pertences. FIM DE JOGO!")
                 }
                 else {
                     alert("Embarca no ônibus e vai feliz ver sua familia. VOCÊ VENCEU!!!")
@@ -44,11 +44,49 @@ function clickVictim() {
 
 
 function clickKiller() {
-    prompt("Marcos tem 45 anos, e possui um temperamento forte. Mora proximo a uma rodoviária. Sempre em seu tempo livre costuma receber os novos visitantes que chegam a sua pequena cidade. Deseja escolher esse personagem? Digite 'sim' para selecionar, ou 'não' para voltar a seleção de personagens.")
+    var marcos = prompt("Marcos tem 45 anos, e possui um temperamento forte. Mora proximo a uma rodoviária. Sempre em seu tempo livre costuma receber os novos visitantes que chegam a sua pequena cidade. Deseja escolher esse personagem? Digite 'SIM' para selecionar, ou 'NÃO' para voltar a seleção de personagens.")
+    if (marcos.toLowerCase() == "sim") {
+        alert("")
+        var briga = prompt("Interferir na briga que está acontecendo?")
+
+        if (briga.toLowerCase() == "sim") {
+            alert("Brigou com uma pessoa e acabou sendo preso. FIM DE JOGO!")
+        }
+        else {
+            alert("Fica observando a confusão de longe.")
+            var seguir = prompt("Seguir um dos participantes da briga?")
+
+            if (seguir.toLowerCase() == "sim") {
+                alert("Seguiu seu alvo até o banheiro.")
+            }
+            else {
+                alert("Foi levado como testemunha para a delegacia e sua vítima fugiu. FIM DE JOGO!")
+            }
+
+            var porta = prompt("Trancou a porta?")
+            if (porta.toLowerCase() == "sim") {
+                alert("Consegue matar a vítima e foge pela janela. VOCÊ VENCEU!")
+            }
+            else {
+                alert("A policia entra e vê a tentativa de assassinato. Você foi pego em flagrante e foi preso. FIM DE JOGO!")
+            }
+        }
+
+    }
 }
 
+
+
+
+
+
+
+
+
+
+
 function clickCop() {
-    prompt("Brenda tem 36 anos, e ama caminhar. Durante suas caminhadas sempre que passa em frente a antiga rodoviária da cidade, entra para comer o seu sanduíche favorito. Deseja escolher esse personagem? Digite 'sim' para selecionar, ou 'não' para voltar a seleção de personagens.")
+    prompt("Brenda tem 36 anos, e ama caminhar. Durante suas caminhadas sempre que passa em frente a antiga rodoviária da cidade, entra para comer o seu sanduíche favorito. Deseja escolher esse personagem? Digite 'SIM' para selecionar, ou 'NÃO' para voltar a seleção de personagens.")
 
 
 }
