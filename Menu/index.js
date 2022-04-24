@@ -13,7 +13,7 @@ while (true) {
 function clickVinicius() {
     var vinicius = prompt("Vinicius tem 32 anos e seu hobby favorito é viajar. Costuma ir para longe de sua pequena cidade do interior para visitar sua família na capital sempre que pode. Deseja escolher esse personagem? Digite 'SIM' para selecionar, ou 'NÃO' para voltar a seleção de personagens.")
     if (vinicius.toLowerCase() == "sim") {
-       return location.href = "http://127.0.0.1:5500/Marcos/marcos.html"
+       return location.href = "http://127.0.0.1:5500/Vinicius/vinicius.html"
     }
 }
 
