@@ -24,6 +24,7 @@ body {
     align-items: center;
     padding: 8px;
     background-color: rgb(197, 192, 192);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.9), 0 2px 4px -2px rgb(0 0 0 / 0.9);
     gap: 16px;
 }
 
@@ -44,4 +45,22 @@ body {
     font-weight: lighter;
     font-size: 16px;
     max-width: 350px;
+}
+
+.character button {
+    margin-top: 10px;
+    width: 54px;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(84, 113, 238);
+    color: white;
+    border-radius: 5px;
+
+}
+
+.character button:hover {
+    background-color: rgb(1, 5, 20);
+    transition: all 0.2s ease-in-out;
 }
