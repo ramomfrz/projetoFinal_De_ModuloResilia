@@ -11,7 +11,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    background-image: url(https://media.wired.co.uk/photos/606db6c4e46630a583ab3275/master/w_1600,c_limit/iStock_92896435_LARGE.jpg);
+    background-size: cover;
     background-color: darkslateblue;
 }
 
@@ -49,13 +50,13 @@ body {
 
 .character button {
     margin-top: 10px;
-    width: 54px;
+    width: 65px;
     padding: 5px;
     font-size: 18px;
     border: none;
     outline: none;
     background-color: rgb(84, 113, 238);
-    color: white;
+    color: rgba(255, 255, 255, 0.897);
     border-radius: 5px;
 
 }
