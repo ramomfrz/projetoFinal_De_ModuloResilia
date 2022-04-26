@@ -1,27 +1,26 @@
 function clickVinicius() {
-
-    alert("Após um evento que aconteceu em seu trabalho, Vinicius conseguiu alguns dias de folga e finalmente vai conseguir viajar para visitar sua família! Arrumou suas coisas e partiu rumo a sua viagem!")
+    alert("Após trabalhar por um longo período, Vinicius conseguiu tirar alguns dias de folga e irá aproveitar esses dias de folga para visitar sua família. Com isso, Vinicius arrumou suas coisas e partiu rumo a sua esperada viagem!")
     var rodoviaria = prompt("Pegar o atalho para rodiaviária?")
 
     if (rodoviaria.toLowerCase() == "sim") {
-        alert("Se depara em meio a um tiroteio, é atingido e morre. FIM DE JOGO!")
+        alert("O atalho costuma ser muito perigo... Vinicius se deparou em meio a um tiroteio, foi atingido e morreu. FIM DE JOGO!!!")
     }
     else {
-        alert("Chega na rodoviária com sucesso!")
-        var banheiro = prompt("Deseja ir no banheiro da rodoviaria?")
+        alert("Após pegar um atalho para chegar mais rápido na rodoviária, Vinicius compra um lanche para se alimentar, enquanto come, Vinicius se lembra de que fará uma longa viagem...")
 
+        var banheiro = prompt("Deseja ir no banheiro da rodoviária?")
         if (banheiro.toLowerCase() == "sim") {
-            alert("Encontra um assassino e morre. FIM DE JOGO!")
+            alert("O banheiro não parecia muito seguro, e a intuição de Vinicius estava certa... Após alguns minutos um homem entra no banheiro, tranca a porta e o mata. FIM DE JOGO! VOCÊ PERDEU!")
         }
         else {
-            alert("Aguarda o horário do ônibus na plataforma.")
-            alert("Enquanto Vinicius aguardava o horário de seu ônibus, percebeu que havia uma loja de presentes na rodoviária")
+            alert("Aguarda o horário do ônibus na plataforma. Enquanto aguarda o horário de saída do ônibus, Vinicius avista uma loja de presentes...")
+
             var presente = prompt("Deseja comprar um presente?")
             if (presente.toLowerCase() == "sim") {
-                alert("sofre um assalto e perde tudo. FIM DE JOGO!")
+                alert("A loja da rodoviária sofre um assalto e Vinicius tem todos os seus pertences levado junto e não conseguirá viajar. FIM DE JOGO!!!")
             }
             else {
-                alert("Embarca no ônibus e vai feliz ver sua familia. VOCÊ VENCEU!!!")
+                alert("Vinicius chega muito feliz e cansado na casa de sua família e mata a saudade de todos os seus famíliares! PARABÉNS! VOCÊ VENCEU!!!")
             }
         }
 
@@ -31,3 +30,4 @@ function clickVinicius() {
 function back() {
     return location.href = "http://127.0.0.1:5500/Menu/index.html"
 }
+

@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://media.wired.co.uk/photos/606db6c4e46630a583ab3275/master/w_1600,c_limit/iStock_92896435_LARGE.jpg);
+    background-size: cover;
+    background-color: darkslateblue;
+}
+
+
+.character {
+    width: 700px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px;
+    background-color: rgb(197, 192, 192);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.9), 0 2px 4px -2px rgb(0 0 0 / 0.9);
+    gap: 16px;
+}
+
+.character img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.character h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.character p {
+    font-weight: lighter;
+    font-size: 16px;
+    max-width: 350px;
+}
+
+.character button {
+    margin-top: 10px;
+    width: 65px;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(84, 113, 238);
+    color: rgba(255, 255, 255, 0.897);
+    border-radius: 5px;
+
+}
+
+.character button:hover {
+    background-color: rgb(1, 5, 20);
+    transition: all 0.2s ease-in-out;
+}
