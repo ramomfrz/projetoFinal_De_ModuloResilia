@@ -6,7 +6,7 @@ function clickVinicius() {
         alert("O atalho costuma ser muito perigo... Vinicius se deparou em meio a um tiroteio, foi atingido e morreu. FIM DE JOGO!!!")
     }
     else {
-        alert("Após pegar um atalho para chegar mais rápido na rodoviária, Vinicius compra um lanche para se alimentar, enquanto come, Vinicius se lembra de que fará uma longa viagem...")
+        alert("Após chegar na rodoviária, Vinicius compra um lanche para se alimentar, enquanto come, Vinicius se lembra de que fará uma longa viagem...")
 
         var banheiro = prompt("Deseja ir no banheiro da rodoviária?")
         if (banheiro.toLowerCase() == "sim") {
