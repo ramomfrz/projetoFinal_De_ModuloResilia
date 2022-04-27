@@ -18,7 +18,7 @@ function clickMarcos() {
             alert("Foi levado como testemunha pra delegacia.  FIM DE JOGO!")
         }
 
-        var porta = prompt("Seria uma boa ideia a porta?")
+        var porta = prompt("Seria uma boa ideia trancar a porta?")
         if (porta.toLowerCase() == "sim") {
             alert("Após trancar a porta, Marcos mata seu alvo e pega uma muda de roupa da mochila de sua vítima. Troca de roupa e joga sua roupa suja no lixo. Em seguida, ele foge pela janela e na manhã seguinte retorna ao seu trabalho para escolher uma nova vítima...  PARABÉNS! VOCÊ VENCEU!!!")
         }
@@ -29,7 +29,7 @@ function clickMarcos() {
 }
 
 function back() {
-    return location.href = "http://127.0.0.1:5500/Menu/index.html"
+    return location.href = "../index.html"
 }
 
 
